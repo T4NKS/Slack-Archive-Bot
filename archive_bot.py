@@ -13,8 +13,8 @@ conn.commit()
 
 # slack_token = os.environ[slack_token]
 # slack_token_bot = os.environ[slack_token_bot]
-slack_token = 'xoxp-533073680406-531491385364-576999913393-eaac0abfe3492d52d6e58834f4a58bf1'
-slack_bot_token = 'xoxb-533073680406-577003789457-2DN1q56uEbzbgj1lq1cKJNYX'
+slack_token = 'ENTER SLACK TOKEN HERE'
+slack_bot_token = 'ENTER BOT TOKEN HERE'
 sc = SlackClient(slack_token)
 scb = SlackClient(slack_bot_token)
 
